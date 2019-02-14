@@ -24,7 +24,8 @@ body {font-family: font-family: 'Roboto', sans-serif;}
 
 header {
   height: 500px;
-  background-color: #072a24;
+  background: url("../img/hero.png");
+  background-size: cover;
 }
 
 h1 {
