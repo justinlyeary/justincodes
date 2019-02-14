@@ -1,0 +1,146 @@
+/**************GRID***************/
+.full-width {
+  width: 1200px;
+  margin: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+  text-align: center;
+  margin-left: 23px;
+  margin-right: 23px;
+
+}
+/***************FONTS**************/
+body {font-family: font-family: 'Roboto Slab', serif;}
+body {font-family: font-family: 'Roboto', sans-serif;}
+
+/***********HEADER************/
+
+header {
+  height: 800px;
+  background: url('../img/hero.png');
+  background-size: cover;
+}
+
+h1 {
+  font-size: 40pt;
+  font-family: Roboto Slab, bold, serif;
+  text-align: center;
+  color: #bdbf09;
+}
+
+h2 {
+  font-size: 32pt;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #087e8b;
+}
+
+.intro {
+  border-width: 6px;
+  padding-top: 300px;
+
+}
+
+/****************BODY******************/
+#work {
+  height: 1450px;
+}
+
+#about {
+  height: 650px;
+  background-color: #087e8b;
+}
+
+#about h3 {
+  padding-top: 75px;
+}
+
+#contact {
+  height: 400px;
+  background-color: #095156;
+  border: solid;
+  border-color: #095156;
+}
+
+#contact h3 {
+  padding-top: 20p;
+}
+
+footer {
+  height: 150px;
+  background-color: #072a24;
+  border: solid;
+  border-color: #072a24;
+  text-align: center;
+  padding-top: 100px;
+  text-decoration-color: #ffffff;
+}
+
+h3 {
+  font-size: 32pt;
+  font-family: Roboto slab, serif;
+  text-align: center;
+  color: #095156;
+}
+
+h4 {
+  font-size: 18pt;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: #095156;
+}
+
+p {
+  font-size: 16pt;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: #095156;
+}
+
+
+.two-columns {
+  float: left;
+  padding-left: 50px;
+}
+
+#photo-one, #photo-two, #photo-three {
+  margin-bottom: 30px;
+}
+
+#description-one, #description-two, #description-three {
+  margin-bottom: 160px;
+}
+
+.white-text {
+  color: #ffffff;
+}
+#copyright {
+   text-align: center;
+   color: #ffffff;
+    clear: both;
+   padding-top: 33px;
+ }
+
+ .btn {
+   border: none;
+   background-color: #9bcfb8;
+   padding: 20px 50px;
+   font-size: 16px;
+   cursor: pointer;
+   display: inline-block;
+ }
+
+ /* On mouse-over */
+ .btn:hover {background: #0a1429;}
+
+ .home {color: #ffffff;}
+ .email {color: #ffffff;}
